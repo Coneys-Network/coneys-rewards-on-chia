@@ -1,0 +1,76 @@
+{
+    "total_amount": 600000000,
+    "mojo": 0.000000000001,
+    "coin_file": "../../coin/coney_v9.clsp",
+    "out_path": "../../out/coin/coney_v9_by_accounts_info.json",
+    "accounts_info": {
+        "IPAccount": {
+            "amount": -1,
+            "ratio": 0.06,
+            "operator": [
+                "master_1",
+                "master_2"
+            ]
+        },
+        "TechAccount": {
+            "amount": -1,
+            "ratio": 0.04,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3"
+            ]
+        },
+        "CharityAccount": {
+            "amount": -1,
+            "ratio": 0.02,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3"
+            ]
+        },
+        "ManagementAccount": {
+            "amount": -1,
+            "ratio": 0.03,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3",
+                "master_4",
+                "master_5"
+            ]
+        },
+        "SupplyChainAccount": {
+            "amount": -1,
+            "ratio": 0.03,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3"
+            ]
+        },
+        "CommunityAccount": {
+            "amount": -1,
+            "ratio": 0.21,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3",
+                "master_4",
+                "master_5"
+            ]
+        },
+        "CreationAccount": {
+            "amount": -1,
+            "ratio": 0.10,
+            "operator": [
+                "master_1",
+                "master_2",
+                "master_3",
+                "master_4",
+                "master_5"
+            ]
+        }
+    }
+}
