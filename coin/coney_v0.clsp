@@ -1,0 +1,16 @@
+(mod 
+    (
+        chanjuan_puzzlehash
+        chanjuan_amount
+    )
+
+    (defconstant CREATE_COIN 51)
+
+    (defun-inline create (chanjuan_puzzlehash chanjuan_amount)
+        (list
+            (list CREATE_COIN chanjuan_puzzlehash chanjuan_amount)
+        )
+    )
+
+    (create chanjuan_puzzlehash chanjuan_amount)
+)

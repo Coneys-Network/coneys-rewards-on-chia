@@ -1,0 +1,21 @@
+(mod 
+    (
+        input_cmd
+        chanjuan_puzzlehash
+        chanjuan_amount
+    )
+
+    (defconstant CREATE_COIN 51)
+    (defconstant spend_cmd 1)
+
+    (defun-inline create (chanjuan_puzzlehash chanjuan_amount)
+        (list
+            (list CREATE_COIN chanjuan_puzzlehash chanjuan_amount)
+        )
+    )
+
+    (if (= input_cmd spend_cmd)
+        (create chanjuan_puzzlehash chanjuan_amount)
+        (x)
+    )
+)
